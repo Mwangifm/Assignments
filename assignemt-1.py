@@ -1,5 +1,5 @@
 num1=int(input("Enter the 1st number: "))
-op1=input("Enter any of these operators to perform operation +, -, *, /: ")
+op1=input("Enter any of these operators to perform 1st operation +, -, *, /: ")
 num2=int(input("Enter the 2nd number: "))
 if op1=='+':
     result1=num1 + num2;
@@ -11,7 +11,7 @@ elif op1=='/':
     result1=num1 / num2;
 else:
    print("operator is not supported");
-op2=input("Enter any of these operators to perform operation +, -, *, /: ")
+op2=input("Enter any of these operators to perform 2nd operation +, -, *, /: ")
 num3=int(input("Enter the 3rd number: "))
 
 if op2=='-':
